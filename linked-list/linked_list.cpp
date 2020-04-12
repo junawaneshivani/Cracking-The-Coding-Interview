@@ -76,7 +76,7 @@ public:
             cout << current->value << " ";
             current = current->next;
         }
-            
+        cout << endl;    
     }
 
 };
