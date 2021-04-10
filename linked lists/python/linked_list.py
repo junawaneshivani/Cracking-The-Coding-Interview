@@ -95,7 +95,7 @@ class DoubleLinkedList:
             current_node = current_node.next
 
 
-def main():
+def _main():
     sll = SingleLinkedList()
     for _ in range(8):
         sll.insert_value(randint(1, 100))
@@ -120,4 +120,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    _main()
